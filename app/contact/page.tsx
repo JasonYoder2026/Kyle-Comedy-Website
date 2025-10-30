@@ -53,7 +53,7 @@ export default function ContactPage() {
           <FacebookIcon size={48} round />
         </FacebookShareButton>
         <a
-            href="https://instagram.com/thecomedianhandle"
+            href="https://www.instagram.com/capn___karl/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-pink-500 hover:text-pink-400 transition"

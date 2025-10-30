@@ -7,8 +7,8 @@ export default function AboutPage() {
 
       <p className="text-lg text-black leading-relaxed mb-6">
         Kyle is a stand-up comedian known for their sharp wit, storytelling,
-        and hilarious takes on everyday life. Based in Goshen, Indiana, he has performed
-        at clubs, theaters, and festivals across the country — bringing laughter to every audience.
+        and hilarious takes on everyday life. Based in Goshen, Indiana, he has started to make 
+        a name for himself with his comedic storytelling and engaging stage presence.
       </p>
 
       <p className="text-lg text-black leading-relaxed mb-6">
@@ -18,8 +18,7 @@ export default function AboutPage() {
       </p>
 
       <p className="text-lg text-black leading-relaxed">
-        When not performing, they’re probably writing new material, drinking too much coffee,
-        or pretending to “work” while watching YouTube clips of other comedians.
+        When not performing, he's probably .
       </p>
     </section>
   );
