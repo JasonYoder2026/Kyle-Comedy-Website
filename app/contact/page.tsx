@@ -23,7 +23,7 @@ export default function ContactPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
       });
-
+      console.log(response);
       if (response.ok) {
         setStatus("Message sent! Thank you.");
         form.reset();
