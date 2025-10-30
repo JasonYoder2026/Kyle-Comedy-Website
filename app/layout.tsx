@@ -38,7 +38,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="flex-grow p-6">{children}</main>
-        <footer className="p-4 text-center text-sm text-neutral-400 border-t border-neutral-700">
+        <footer className="p-4 text-center text-sm text-black border-t border-neutral-700">
           © {new Date().getFullYear()} Kyle Schrock. All rights reserved.
         </footer>
       </body>

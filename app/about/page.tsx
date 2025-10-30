@@ -1,21 +1,23 @@
 export default function AboutPage() {
   return (
     <section className="max-w-3xl mx-auto py-12 px-4 text-center">
-      <h1 className="text-4xl font-bold mb-6 text-yellow-400">About [Comedian Name]</h1>
+      <h1 className="text-4xl font-bold mb-6 text-black">Meet Kyle</h1>
 
-      <p className="text-lg text-gray-300 leading-relaxed mb-6">
-        [Comedian Name] is a stand-up comedian known for their sharp wit, storytelling,
-        and hilarious takes on everyday life. Based in [City or Region], they’ve performed
+      <img src="about.png" alt="Kyle Schrock" width={250} height={350} className="mx-auto mb-6 rounded-lg shadow-lg" />
+
+      <p className="text-lg text-black leading-relaxed mb-6">
+        Kyle is a stand-up comedian known for their sharp wit, storytelling,
+        and hilarious takes on everyday life. Based in Goshen, Indiana, he has performed
         at clubs, theaters, and festivals across the country — bringing laughter to every audience.
       </p>
 
-      <p className="text-lg text-gray-300 leading-relaxed mb-6">
-        Their comedy blends personal stories, quick punchlines, and clever social commentary.
-        Whether on stage or online, [Comedian Name] delivers an unforgettable performance that keeps
+      <p className="text-lg text-black leading-relaxed mb-6">
+        His comedy blends personal stories, quick punchlines, and clever social commentary.
+        Whether on stage or online, Kyle delivers an unforgettable performance that keeps
         people laughing long after the show ends.
       </p>
 
-      <p className="text-lg text-gray-300 leading-relaxed">
+      <p className="text-lg text-black leading-relaxed">
         When not performing, they’re probably writing new material, drinking too much coffee,
         or pretending to “work” while watching YouTube clips of other comedians.
       </p>
