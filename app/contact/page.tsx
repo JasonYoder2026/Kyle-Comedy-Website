@@ -18,7 +18,7 @@ export default function ContactPage() {
     };
 
     try {
-      const response = await fetch(NEXT_CONTACT_API, {
+      const response = await fetch(process.env.NEXT_PROCESS_CONTACT_API!, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),
