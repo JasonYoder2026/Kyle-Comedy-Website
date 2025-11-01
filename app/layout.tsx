@@ -28,7 +28,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-neutral-900 text-white flex flex-col">
         <header className="p-4 flex justify-between items-center bg-neutral-800 shadow">
           <div className="flex items-center space-x-3">
-            <img className="w-10 h-10 rounded-full object-cover" src="kyle.jpg"></img>
+            <img className="w-10 h-10 rounded-full object-cover" src="/kyle.jpg"></img>
             <h1 className="text-xl font-bold">Kyle Schrock</h1>
           </div>
           <nav className="space-x-6">
