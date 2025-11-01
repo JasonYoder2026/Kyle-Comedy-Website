@@ -33,7 +33,7 @@ export default function RootLayout({
           </div>
           <nav className="space-x-6">
             <Link href="/">Media</Link>
-            <Link href="/about">About</Link>
+            <Link href="/about/">About</Link>
             <Link href="/contact">Contact</Link>
           </nav>
         </header>
