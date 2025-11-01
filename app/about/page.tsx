@@ -3,7 +3,7 @@ export default function AboutPage() {
     <section className="max-w-3xl mx-auto py-12 px-4 text-center">
       <h1 className="text-4xl font-bold mb-6 text-black">Meet Kyle</h1>
 
-      <img src="about.png" alt="Kyle Schrock" width={250} height={350} className="mx-auto mb-6 rounded-lg shadow-lg" />
+      <img src="/about.png" alt="Kyle Schrock" width={250} height={350} className="mx-auto mb-6 rounded-lg shadow-lg" />
 
       <p className="text-lg text-black leading-relaxed mb-6">
         Kyle is a stand-up comedian known for their sharp wit, storytelling,
