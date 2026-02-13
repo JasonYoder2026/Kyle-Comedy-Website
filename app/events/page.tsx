@@ -32,7 +32,7 @@ function EventCard({ event }: { event: Event }) {
     <div className="bg-amber-50 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition">
       <div className="relative w-full aspect-[3/4]">
         <Image
-          src={'/posters/placeholder.png'}
+          src={event.image || '/posters/placeholder.png'}
           alt={event.title}
           fill
           className="object-cover"
