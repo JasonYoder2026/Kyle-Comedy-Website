@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="min-h-screen bg-neutral-900 text-white flex flex-col">
         <header className="p-4 flex justify-between items-center bg-neutral-800 shadow">
           <div className="flex items-center space-x-3">
-            <h1 className="text-xl font-bold"><Link href="/">Home</Link></h1>
+            <h1 className="text-2xl font-bold"><Link href="/">Home</Link></h1>
           </div>
           <nav className="space-x-6">
             <Link href="/events">Upcoming Shows</Link>
