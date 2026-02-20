@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 type Event = {
   id: string
@@ -40,8 +41,9 @@ function EventCard({ event }: { event: Event }) {
       </div>
 
       <div className="p-4 text-center">
-        <h3 className="text-xl font-semibold text-black mb-2">
+        <h3 className="text-xl font-semibold text-black underline decoration-neutral-400 underline-offset-2 mb-2 inline-flex items-center justify-center gap-1">
           {event.title}
+          {event.link && <FaExternalLinkAlt className="inline-block w-4 h-4 shrink-0 text-neutral-500" aria-hidden />}
         </h3>
         <p className="text-gray-700">
           {event.date}
